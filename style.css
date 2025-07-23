@@ -1,3 +1,23 @@
-h1 {
-  color: red;
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* variables */
+:root {
+  /* colors */
+  --deep-blue: #1f2937;
+  --bright-blue: #3882f6;
+  --custom-white: #f9faf8;
+  --light-grey: #e5e7eb;
+  /* fonts */
+  --font: "Roboto", sans-serif;
+}
+
+/* global box-sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
