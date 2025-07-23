@@ -8,52 +8,60 @@
   </head>
   <body>
     <header class="header">
-      <p class="header__logo">Header Logo</p>
-      <nav class="header__nav">
-        <ul>
-          <li>Header Link One</li>
-          <li>Header Link Two</li>
-          <li>Header Link Three</li>
-        </ul>
-      </nav>
+      <div class="header__container">
+        <p class="header__logo h5">Header Logo</p>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item p">Header Link One</li>
+            <li class="header__nav-item p">Header Link Two</li>
+            <li class="header__nav-item p">Header Link Three</li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <section class="hero">
-      <div class="hero__copy">
-        <h1 class="hero__copy-heading">This website is awesome</h1>
-        <p class="hero__copy-subtext">
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast.
-        </p>
-        <button class="hero__button">Sign up</button>
-      </div>
-      <div class="hero__img-frame">
-        <img src="" alt="" />
+      <div class="hero__container">
+        <div class="hero__copy">
+          <h1 class="hero__copy-heading h1">This website is awesome</h1>
+          <p class="hero__copy-subtext p">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button class="hero__button h6">Sign up</button>
+        </div>
+        <div class="hero__img-frame">
+          <img
+            src="https://images.pexels.com/photos/32882825/pexels-photo-32882825.jpeg?_gl=1*d0xwz7*_ga*OTEyMDEzODMyLjE3NTMyMzYyOTk.*_ga_8JE65Q40S6*czE3NTMyNDAzMzEkbzIkZzEkdDE3NTMyNDA0MzMkajM5JGwwJGgw"
+            alt="Relaxing by the Sea in Nishi-Izu, Shizuoka Prefecture"
+            class="hero__img"
+          />
+        </div>
       </div>
     </section>
     <section class="card">
-      <h2 class="card__heading">Some random information.</h2>
+      <h2 class="card__heading h2">Some random information.</h2>
       <div class="card__flex">
         <div class="card__flex-group">
           <div class="card__img-frame"></div>
-          <div class="card__subtext">
+          <div class="card__subtext p">
             this is some subtext under an illustration or image
           </div>
         </div>
         <div class="card__flex-group">
           <div class="card__img-frame"></div>
-          <div class="card__subtext">
+          <div class="card__subtext p">
             this is some subtext under an illustration or image
           </div>
         </div>
         <div class="card__flex-group">
           <div class="card__img-frame"></div>
-          <div class="card__subtext">
+          <div class="card__subtext p">
             this is some subtext under an illustration or image
           </div>
         </div>
         <div class="card__flex-group">
           <div class="card__img-frame"></div>
-          <div class="card__subtext">
+          <div class="card__subtext p">
             this is some subtext under an illustration or image
           </div>
         </div>
@@ -65,21 +73,23 @@
         just filling up space, or maybe people will actually read it. Who knows?
         All I know is that it looks nice.
       </p>
-      <p class="quote__quote-credit">&ndash;Thor, God of Thunder</p>
+      <p class="quote__quote-credit h5">&ndash;Thor, God of Thunder</p>
     </section>
     <section class="cta">
       <div class="cta__container">
         <div class="cta__copy">
-          <h2 class="cta__copy-heading">Call to action! It's time!</h2>
-          <p class="cta__copy-subtext">
+          <h2 class="cta__copy-heading h5">Call to action! It's time!</h2>
+          <p class="cta__copy-subtext p">
             Sign up for our product by clicking that button right over there!
           </p>
         </div>
-        <button>Sign up</button>
+        <button class="cta__button h6">Sign up</button>
       </div>
     </section>
     <footer class="footer">
-      <p class="footer__copy">Copyright &copy; The Odin Project 2021</p>
+      <div class="footer__container">
+        <p class="footer__copy p">Copyright &copy; The Odin Project 2021</p>
+      </div>
     </footer>
   </body>
 </html>
